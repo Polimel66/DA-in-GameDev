@@ -63,35 +63,22 @@
  - 
 ## Задание 3
 ### Должна ли величина loss стремиться к нулю при изменении исходных данных? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ.
-
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
-
-```py
-
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
-
-```
-
+Должна, потому что решением прошлой задачи является минимизация этой функции. Следовательно, loss стремится к 0. Пример, подтверждающий мой ответ:
+ - Новые данные
+![image](https://user-images.githubusercontent.com/57943773/192332984-77d8ab3b-d76f-4b12-a5d5-4a41511a0e8e.png)
+ - 1 шаг
+![image](https://user-images.githubusercontent.com/57943773/192333165-4095ca88-1b1c-4006-ab1d-d7f963401ff2.png)
+ - 1000 шаг
+![image](https://user-images.githubusercontent.com/57943773/192333325-c5d4e421-bd0c-4a37-b9b7-96f466b68d87.png)
 ## Задание 3
 ### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
-
+Lr - множитель, от которого зависит изменение коэффицентов a и b. Чем больше Lr, тем больше изменение коэффицентов и наоборот. Например, если взять те же данные, что и
+в предыдущем примере, но увеличить Lr в 1000 раз.
+ - 1 шаг
+![image](https://user-images.githubusercontent.com/57943773/192336154-3cc57c9c-0a72-4073-a6a9-a41a9bdd0421.png)
+ - 1000 шаг
+![image](https://user-images.githubusercontent.com/57943773/192336005-4f26fc5e-8f15-4dd0-ace0-e7fbb8c2858e.png)
+ - 
 - Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
 - Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
 
