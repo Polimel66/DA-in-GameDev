@@ -76,9 +76,11 @@ Lr - множитель, от которого зависит изменение
 в предыдущем примере, но увеличить Lr в 1000 раз.
  - 1 шаг
 ![image](https://user-images.githubusercontent.com/57943773/192336154-3cc57c9c-0a72-4073-a6a9-a41a9bdd0421.png)
- - 1000 шаг
+ - 1000 шаг отсюда и из предыдущей задачи
 ![image](https://user-images.githubusercontent.com/57943773/192336005-4f26fc5e-8f15-4dd0-ace0-e7fbb8c2858e.png)
- - 
+![image](https://user-images.githubusercontent.com/57943773/192333325-c5d4e421-bd0c-4a37-b9b7-96f466b68d87.png)
+
+
 - Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
 - Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
 
