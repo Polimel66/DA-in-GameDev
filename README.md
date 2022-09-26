@@ -6,9 +6,9 @@
 
 | Задание | Выполнение | Баллы |
 | ------ | ------ | ------ |
-| Задание 1 | # | 60 |
-| Задание 2 | # | 20 |
-| Задание 3 | # | 20 |
+| Задание 1 | * | 60 |
+| Задание 2 | * | 20 |
+| Задание 3 | * | 20 |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
@@ -79,37 +79,10 @@ Lr - множитель, от которого зависит изменение
  - 1000 шаг отсюда и из предыдущей задачи
 ![image](https://user-images.githubusercontent.com/57943773/192336005-4f26fc5e-8f15-4dd0-ace0-e7fbb8c2858e.png)
 ![image](https://user-images.githubusercontent.com/57943773/192333325-c5d4e421-bd0c-4a37-b9b7-96f466b68d87.png)
-
-
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
-
-```py
-
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
-
-```
-
+loss изменился быстрее чем в предыдущем задании.
 
 ## Выводы
-
-Абзац умных слов о том, что было сделано и что было узнано.
+В результате лабораторной работы я узнала, о методе вычилсения "потерь" предсказания и методе оптимизации для минимизации "потерь". Узнала о базовых библиотеках numpy и matplotlib. Узнала о основных операторах языка Python на примере линейной регрессии.
 
 | Plugin | README |
 | ------ | ------ |
