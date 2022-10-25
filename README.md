@@ -31,6 +31,8 @@
  - Добавила в проект Unity нужные файлы
 ![image](https://user-images.githubusercontent.com/57943773/197792122-21a2d578-7b1d-425e-9e4c-97421626b141.png)
  - установила mlagents 0.28.0 и torch 1.7.1
+![image](https://user-images.githubusercontent.com/57943773/197829714-322f84b8-ad34-4f99-a768-0341cb3cdd0a.png)
+
 ![image](https://user-images.githubusercontent.com/57943773/197801199-58c2dc42-3de8-46d0-ba82-dedbfdd5a7b9.png)
 ![image](https://user-images.githubusercontent.com/57943773/197800426-9bf6fcb6-e68c-4ea1-b484-a1b5b13de9dd.png)
  - Создала на сцене плоскость, куб и сферу, создала и подключила скрипт-файл к сфере 
