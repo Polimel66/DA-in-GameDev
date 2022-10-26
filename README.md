@@ -206,7 +206,9 @@ public class RollerAgent : Agent
 }
 ```
  - Видео работы:
-![image](https://user-images.githubusercontent.com/57943773/198061323-957202ea-2838-47c3-8c91-6df117ada4e1.png)
+https://user-images.githubusercontent.com/57943773/198062917-c53afcd5-bd11-419a-ba48-a4a151c34c8b.mp4
+
+
 
 ## Выводы
 Я научилась работать с ML-агентом, узнала как его обучать. Поняла, что увеличение количества копий позволяет модели обучиться быстрее.
