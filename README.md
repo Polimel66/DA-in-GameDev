@@ -36,7 +36,7 @@
 ![image](https://user-images.githubusercontent.com/57943773/204281044-2aceb0ac-f852-4f07-8947-de1e274e0a6a.png)
 ![image](https://user-images.githubusercontent.com/57943773/204281198-722d891d-2811-40aa-be1b-9edbf3ceb135.png)
 ![image](https://user-images.githubusercontent.com/57943773/204281491-e9d27967-8ae9-484f-ad29-b7b9fc8e4e00.png)
-
+2) 
 
 ## Задание 2
 ### Подробно описать каждую строку файла конфигурации нейронной сети. Самостоятельно найти информацию о компонентах Decision Requester, Behavior Parameters, добавленных сфере.
