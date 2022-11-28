@@ -32,6 +32,7 @@
  - Создала пустой 3D проект на Unity, добавила пустой GameObject, скачала и навесила на этот объект скрипт Perceptron.
 ![image](https://user-images.githubusercontent.com/57943773/204277683-f43783bf-8fd5-44ba-a097-2e879b178e7c.png)
  - Заполнила поле Input для каждого Elemetn и запустила проект.
+
 1 - Для OR хватило 3 эпохи, с четвертой эпохи вычисления выполнялись корректно: 
 ![image](https://user-images.githubusercontent.com/57943773/204281044-2aceb0ac-f852-4f07-8947-de1e274e0a6a.png)
 ![image](https://user-images.githubusercontent.com/57943773/204281198-722d891d-2811-40aa-be1b-9edbf3ceb135.png)
@@ -116,6 +117,7 @@ public class ColorChanger : MonoBehaviour
 }
 ```
  - Запустила проект. Сцена после запуска - результат работы команды OR. Цвета кубиков сменились корректно, в соответствии с операцией OR.
+
 ![lab4](https://user-images.githubusercontent.com/57943773/204309038-8bd7dc8d-8478-4e5e-803a-e9daaa4c152c.gif)
 
 
