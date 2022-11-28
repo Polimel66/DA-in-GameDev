@@ -44,9 +44,9 @@
 ![image](https://user-images.githubusercontent.com/57943773/204285124-c58f8ede-42a0-4d1a-b800-b86b00b37b05.png)
 
 Для NAND хватило 6 эпох, после вычисления выполнялись корректно:
-![image](https://user-images.githubusercontent.com/57943773/204286265-924a9443-0f49-4cbb-ab01-2134b0becff6.png)
-![image](https://user-images.githubusercontent.com/57943773/204286323-2da9ef0a-f0d6-46f0-a953-4eafb1afef0e.png)
-![image](https://user-images.githubusercontent.com/57943773/204286347-c030a38d-bda5-4355-b6c0-4386363d88ec.png)
+![image](https://user-images.githubusercontent.com/57943773/204286671-ff4e87e9-7565-4006-9ff4-b313277cb134.png)
+![image](https://user-images.githubusercontent.com/57943773/204286731-72dc6a03-0691-442a-896f-8bf05446c71d.png)
+![image](https://user-images.githubusercontent.com/57943773/204286766-d5ca6469-6d03-4a2a-a02a-7be00e533d90.png)
 ![image](https://user-images.githubusercontent.com/57943773/204286420-a1453d14-395a-47c3-b431-73076046ff15.png)
 
 ## Задание 2
