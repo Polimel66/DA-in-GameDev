@@ -50,6 +50,9 @@
 ![image](https://user-images.githubusercontent.com/57943773/204286420-a1453d14-395a-47c3-b431-73076046ff15.png)
 
 4 - Для XOR перцептрон не смог обучиться за 15000 эпох, вычисления выполнялись некорректно:
+![image](https://user-images.githubusercontent.com/57943773/204289372-d078aa56-bbfa-4919-87a4-4837a71728cb.png)
+![image](https://user-images.githubusercontent.com/57943773/204289514-fa608e20-e4bf-4259-847d-40a822ea0be5.png)
+![image](https://user-images.githubusercontent.com/57943773/204289580-b8d3a577-6963-4298-83f3-38188e78accd.png)
 
 ## Задание 2
 ### Подробно описать каждую строку файла конфигурации нейронной сети. Самостоятельно найти информацию о компонентах Decision Requester, Behavior Parameters, добавленных сфере.
