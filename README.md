@@ -43,6 +43,11 @@
 ![image](https://user-images.githubusercontent.com/57943773/204285051-3c0d287f-fb67-499b-8df5-ceca0bb23476.png)
 ![image](https://user-images.githubusercontent.com/57943773/204285124-c58f8ede-42a0-4d1a-b800-b86b00b37b05.png)
 
+Для NAND хватило 6 эпох, после вычисления выполнялись корректно:
+![image](https://user-images.githubusercontent.com/57943773/204286265-924a9443-0f49-4cbb-ab01-2134b0becff6.png)
+![image](https://user-images.githubusercontent.com/57943773/204286323-2da9ef0a-f0d6-46f0-a953-4eafb1afef0e.png)
+![image](https://user-images.githubusercontent.com/57943773/204286347-c030a38d-bda5-4355-b6c0-4386363d88ec.png)
+![image](https://user-images.githubusercontent.com/57943773/204286420-a1453d14-395a-47c3-b431-73076046ff15.png)
 
 ## Задание 2
 ### Подробно описать каждую строку файла конфигурации нейронной сети. Самостоятельно найти информацию о компонентах Decision Requester, Behavior Parameters, добавленных сфере.
