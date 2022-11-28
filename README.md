@@ -87,11 +87,35 @@ double CalcOutput(int i)
 		return (0);
 	}
  ```
-
  
 ## Задание 3
 ### Построить визуальную модель работы перцептрона на сцене Unity.
+Создала работу функции OR:
+ - Белый куб - 0, черный куб - 1
+![image](https://user-images.githubusercontent.com/57943773/204305658-a6d69945-9a54-4d62-bddc-c1b16b3dec95.png)
+ - Создала скрипт для изменения цвета кубов (при столкновении)
+```
+using UnityEngine;
 
+public class ColorChanger : MonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)
+    {
+        if (gameObject.GetComponent<Renderer>().material.color == Color.white && other.gameObject.GetComponent<Renderer>().material.color == Color.white)
+        {
+            gameObject.GetComponent<Renderer>().material.color = Color.white;
+            other.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            
+        }
+        else
+        {
+            gameObject.GetComponent<Renderer>().material.color = Color.black;
+            other.gameObject.GetComponent<Renderer>().material.color = Color.black;
+        }
+    }
+}
+```
+ - Запустила проект. Сцена после запуска - результат работы команды OR. Цвета кубиков сменились корректно, в соответствии с операцией OR.
 
 
 ## Выводы
