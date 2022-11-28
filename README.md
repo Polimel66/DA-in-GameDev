@@ -32,23 +32,24 @@
  - Создала пустой 3D проект на Unity, добавила пустой GameObject, скачала и навесила на этот объект скрипт Perceptron.
 ![image](https://user-images.githubusercontent.com/57943773/204277683-f43783bf-8fd5-44ba-a097-2e879b178e7c.png)
  - Заполнила поле Input для каждого Elemetn и запустила проект.
-Для OR хватило 4 эпохи, после вычисления выполнялись корректно: 
+1 - Для OR хватило 4 эпохи, после вычисления выполнялись корректно: 
 ![image](https://user-images.githubusercontent.com/57943773/204281044-2aceb0ac-f852-4f07-8947-de1e274e0a6a.png)
 ![image](https://user-images.githubusercontent.com/57943773/204281198-722d891d-2811-40aa-be1b-9edbf3ceb135.png)
 ![image](https://user-images.githubusercontent.com/57943773/204281491-e9d27967-8ae9-484f-ad29-b7b9fc8e4e00.png)
 
-Для AND хватило 6 эпох, после вычисления выполнялись корректно:
+2 - Для AND хватило 6 эпох, после вычисления выполнялись корректно:
 ![image](https://user-images.githubusercontent.com/57943773/204284924-d3017c17-0ff7-493e-8c64-65cb8e008654.png)
 ![image](https://user-images.githubusercontent.com/57943773/204285012-37716c24-82c9-4686-98ae-f826a5a6e97e.png)
 ![image](https://user-images.githubusercontent.com/57943773/204285051-3c0d287f-fb67-499b-8df5-ceca0bb23476.png)
 ![image](https://user-images.githubusercontent.com/57943773/204285124-c58f8ede-42a0-4d1a-b800-b86b00b37b05.png)
 
-Для NAND хватило 6 эпох, после вычисления выполнялись корректно:
+3 - Для NAND хватило 6 эпох, после вычисления выполнялись корректно:
 ![image](https://user-images.githubusercontent.com/57943773/204286671-ff4e87e9-7565-4006-9ff4-b313277cb134.png)
 ![image](https://user-images.githubusercontent.com/57943773/204286731-72dc6a03-0691-442a-896f-8bf05446c71d.png)
 ![image](https://user-images.githubusercontent.com/57943773/204286766-d5ca6469-6d03-4a2a-a02a-7be00e533d90.png)
 ![image](https://user-images.githubusercontent.com/57943773/204286420-a1453d14-395a-47c3-b431-73076046ff15.png)
 
+4 - Для XOR перцептрон не смог обучиться за 15000 эпох, вычисления выполняются некорректно
 ## Задание 2
 ### Подробно описать каждую строку файла конфигурации нейронной сети. Самостоятельно найти информацию о компонентах Decision Requester, Behavior Parameters, добавленных сфере.
  - Behavior Parameters (определяет принятие объектом решений) - в нём указывается тип поведения, который будет использоваться: удалённый процесс обучения, обученная модель.
