@@ -116,6 +116,7 @@ public class ColorChanger : MonoBehaviour
 }
 ```
  - Запустила проект. Сцена после запуска - результат работы команды OR. Цвета кубиков сменились корректно, в соответствии с операцией OR.
+![lab4](https://user-images.githubusercontent.com/57943773/204309038-8bd7dc8d-8478-4e5e-803a-e9daaa4c152c.gif)
 
 
 ## Выводы
