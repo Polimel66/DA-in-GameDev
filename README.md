@@ -58,6 +58,7 @@
 ### Построить графики зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
 ![image](https://user-images.githubusercontent.com/57943773/204294651-8e1867bd-5596-4dab-8e72-092a0a1b07d5.png)
 ![image](https://user-images.githubusercontent.com/57943773/204294516-039ecc56-867d-41f7-acc2-6d962703c7e0.png)
+
 Нужное количество эпох обучения завистит от weights и bias.
 ```
 double DotProductBias(double[] v1, double[] v2)
@@ -79,7 +80,7 @@ double DotProductBias(double[] v1, double[] v2)
 		return d;
 	}
 
-	double CalcOutput(int i)
+double CalcOutput(int i)
 	{
 		double dp = DotProductBias(weights, ts[i].input);
 		if (dp > 0) return (1);
