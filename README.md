@@ -56,8 +56,10 @@
 ![image](https://user-images.githubusercontent.com/57943773/204574756-10606236-e41a-46f0-9314-c4a0c83e6a9e.png)
 
 3) Уменьшила lambd на 0.25:
+
 ![image](https://user-images.githubusercontent.com/57943773/204577132-cb595815-cee7-41c2-9f74-9ed72f45ded2.png)
 ![image](https://user-images.githubusercontent.com/57943773/204576791-e615c9df-9d2e-4cf0-8ad7-467c2c7ce796.png)
+![image](https://user-images.githubusercontent.com/57943773/204579339-44c0dc0b-ec9e-4836-8765-cad1f7ed3330.png)
 
 
 ## Задание 3!
