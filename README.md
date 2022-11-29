@@ -44,12 +44,19 @@
 ![image](https://user-images.githubusercontent.com/57943773/204559806-4f79ecc8-a12f-4f00-9b1d-d213986a9660.png)
  - Изменения: (данные до и после изменения, а так же получившиеся графики)
 1) Увеличила параметр epsilon на 0.2:
+
 ![image](https://user-images.githubusercontent.com/57943773/204568597-539cff20-1381-496d-b0f1-942a62c53458.png)
 ![image](https://user-images.githubusercontent.com/57943773/204568719-d60db27f-1ea6-4a95-9c62-141ece03e5fd.png)
 ![image](https://user-images.githubusercontent.com/57943773/204571081-45e85f1b-b25e-4fa7-b8a2-1f3eb6995296.png)
 
+2) Увеличила batch_size на 512:
 
-## Задание 3
+![image](https://user-images.githubusercontent.com/57943773/204572340-8bebafe9-e8e2-44ab-9b03-1d5cbcbbdf34.png)
+![image](https://user-images.githubusercontent.com/57943773/204572478-19bd329f-17a9-4d15-8030-29a7ba8b9fe4.png)
+![image](https://user-images.githubusercontent.com/57943773/204574756-10606236-e41a-46f0-9314-c4a0c83e6a9e.png)
+
+## Задание 3!
+
 ### Построить визуальную модель работы перцептрона на сцене Unity.
 Создала работу функции OR:
  - Белый куб - 0, черный куб - 1
