@@ -26,8 +26,14 @@
 
 
 ## Задание 1
-### В проекте Unity реализовать перцептрон, который умеет производить вычисления:
+### Интегрировать экономическую систему в проект Unity и обучить ML-Agent
+ - Создала и активировала виртуальное пространство
 ![image](https://user-images.githubusercontent.com/57943773/204527671-eb6924ec-62b5-46d9-a6c8-f42b83db2424.png)
+![image](https://user-images.githubusercontent.com/57943773/204529485-30a9ab59-e972-4154-b222-091578444c66.png)
+ - Установила пакеты из третей лабораторной работы
+![image](https://user-images.githubusercontent.com/57943773/204529783-8d3d6ab1-a296-417c-9e28-c7f0875294ea.png)
+![image](https://user-images.githubusercontent.com/57943773/204532095-6cb55ff0-ba34-4b20-ae22-2e2901b0af2f.png)
+ - ![image](https://user-images.githubusercontent.com/57943773/204556068-53a1fbb4-4bd8-4570-8741-ea0584e92fe4.png)
 
 ## Задание 2
 ### Построить графики зависимости количества эпох от ошибки обучения. Указать от чего зависит необходимое количество эпох обучения.
