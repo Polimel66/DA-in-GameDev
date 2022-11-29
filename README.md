@@ -55,6 +55,11 @@
 ![image](https://user-images.githubusercontent.com/57943773/204572478-19bd329f-17a9-4d15-8030-29a7ba8b9fe4.png)
 ![image](https://user-images.githubusercontent.com/57943773/204574756-10606236-e41a-46f0-9314-c4a0c83e6a9e.png)
 
+3) Уменьшила lambd на 0.25:
+![image](https://user-images.githubusercontent.com/57943773/204576330-ce4a5d5b-87d1-4bcc-a9c2-b1344a5d2519.png)
+![image](https://user-images.githubusercontent.com/57943773/204576791-e615c9df-9d2e-4cf0-8ad7-467c2c7ce796.png)
+
+
 ## Задание 3!
 
 ### Построить визуальную модель работы перцептрона на сцене Unity.
