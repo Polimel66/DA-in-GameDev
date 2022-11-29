@@ -38,10 +38,9 @@
 ![image](https://user-images.githubusercontent.com/57943773/204556068-53a1fbb4-4bd8-4570-8741-ea0584e92fe4.png)
 ![image](https://user-images.githubusercontent.com/57943773/204561616-f43b15ea-32f0-47e9-8fe1-e61a159d231d.png)
 
-
-
 ## Задание 2
 ### 
+ - Графики до изменений:
 ![image](https://user-images.githubusercontent.com/57943773/204559806-4f79ecc8-a12f-4f00-9b1d-d213986a9660.png)
 
 ## Задание 3
