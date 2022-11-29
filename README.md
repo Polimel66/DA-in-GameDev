@@ -36,7 +36,6 @@
 ![image](https://user-images.githubusercontent.com/57943773/204561379-a162c5a6-1090-4518-956d-503dd51761f4.png)
  - Произвела обучение нейросети
 ![image](https://user-images.githubusercontent.com/57943773/204556068-53a1fbb4-4bd8-4570-8741-ea0584e92fe4.png)
-
 ![image](https://user-images.githubusercontent.com/57943773/204561616-f43b15ea-32f0-47e9-8fe1-e61a159d231d.png)
 
 
