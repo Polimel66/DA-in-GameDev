@@ -23,7 +23,7 @@
 
 
 ## Цель работы
-
+Научиться интегрированию экономической системы в проект Unity и обучению ML-Agent.
 
 ## Задание 1
 ### Интегрировать экономическую систему в проект Unity и обучить ML-Agent
@@ -39,7 +39,7 @@
 ![image](https://user-images.githubusercontent.com/57943773/204561616-f43b15ea-32f0-47e9-8fe1-e61a159d231d.png)
 
 ## Задание 2
-### 
+### Измените параметры файла yaml-агента и определить какие параметры и как влияют на обучение модели. Опишите результаты, выведенные в TensorBoard
  - Графики до изменения данных:
 ![image](https://user-images.githubusercontent.com/57943773/204559806-4f79ecc8-a12f-4f00-9b1d-d213986a9660.png)
  - Изменения: (данные до и после изменения, а так же получившиеся графики)
@@ -60,40 +60,6 @@
 ![image](https://user-images.githubusercontent.com/57943773/204577132-cb595815-cee7-41c2-9f74-9ed72f45ded2.png)
 ![image](https://user-images.githubusercontent.com/57943773/204576791-e615c9df-9d2e-4cf0-8ad7-467c2c7ce796.png)
 ![image](https://user-images.githubusercontent.com/57943773/204579339-44c0dc0b-ec9e-4836-8765-cad1f7ed3330.png)
-
-
-## Задание 3!
-
-### Построить визуальную модель работы перцептрона на сцене Unity.
-Создала работу функции OR:
- - Белый куб - 0, черный куб - 1
-![image](https://user-images.githubusercontent.com/57943773/204305658-a6d69945-9a54-4d62-bddc-c1b16b3dec95.png)
- - Создала скрипт для изменения цвета кубов (при столкновении)
-```
-using UnityEngine;
-
-public class ColorChanger : MonoBehaviour
-{
-    private void OnTriggerEnter(Collider other)
-    {
-        if (gameObject.GetComponent<Renderer>().material.color == Color.white && other.gameObject.GetComponent<Renderer>().material.color == Color.white)
-        {
-            gameObject.GetComponent<Renderer>().material.color = Color.white;
-            other.gameObject.GetComponent<Renderer>().material.color = Color.white;
-            
-        }
-        else
-        {
-            gameObject.GetComponent<Renderer>().material.color = Color.black;
-            other.gameObject.GetComponent<Renderer>().material.color = Color.black;
-        }
-    }
-}
-```
- - Запустила проект. Сцена после запуска - результат работы команды OR. Цвета кубиков сменились корректно, в соответствии с функцией.
-
-![lab4](https://user-images.githubusercontent.com/57943773/204309038-8bd7dc8d-8478-4e5e-803a-e9daaa4c152c.gif)
-
 
 ## Выводы
 Я познакомилась с работой перцептрона. Также создала перцептрон, который производит вычисления для различных логических функций, визуализировала его работу на сцене Unity и построила график зависимости количества эпох от ошибки обучения.
